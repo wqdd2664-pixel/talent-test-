@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>寻找你的天赋</title>
+
+
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- 报告主体 -->
+
+<div class="result-page" id="report">
+
+
+    <!-- 顶部结果 -->
+
+    <div class="result-header">
+
+
+        <ul class="small-title">
+
+            寻找你的天赋
+
+        </ul>
+
+
+        <h1 id="talentName">
+
+            创造者
+
+        </h1>
+
+
+        <ul id="englishName">
+
+            THE CREATOR
+
+        </ul>
+
+
+    </div>
+
+
+
+
+
+    <!-- 天赋画像 -->
+
+    <section class="result-section">
+
+
+        <h2>
+
+            你的天赋画像
+
+        </h2>
+
+
+        <p id="talentDesc">
+
+        </p>
+
+
+    </section>
+
+
+
+
+
+    <!-- 核心特质 -->
+
+    <section class="result-section">
+
+
+        <h2>
+
+            核心特质解析
+
+        </h2>
+
+
+        <p id="coreTrait">
+
+        </p>
+
+
+    </section>
+
+
+
+
+
+    <!-- 雷达图 -->
+
+    <section class="result-section">
+
+
+        <h2>
+
+            八维能力分析
+
+        </h2>
+
+
+        <div class="chart-box">
+
+
+            <canvas id="radarChart"></canvas>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- 优势 -->
+
+    <section class="result-section">
+
+
+        <h2>
+
+            你的优势
+
+        </h2>
+
+
+        <ul id="advantages">
+
+
+        </ul>
+
+
+    </section>
+
+
+
+
+
+    <!-- 成长建议 -->
+
+    <section class="result-section">
+
+
+        <h2>
+
+            成长建议
+
+        </h2>
+
+
+        <p id="growthAdvice">
+
+
+        </p>
+
+
+    </section>
+
+
+
+
+
+    <!-- AI职业建议 -->
+
+    <section class="result-section">
+
+
+        <h2>
+
+            专属职业方向
+
+        </h2>
+
+
+        <p id="careerAdvice">
+
+
+        </p>
+
+
+    </section>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- 分享按钮 -->
+
+
+<button 
+class="share-btn"
+id="generateReport">
+
+
+    生成我的天赋报告
+
+
+</button>
+
+<!-- 图表库 -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/questions.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas/dist/html2canvas.min.js"></script>
+<script src="js/result.js"></script>
+
+
+
+</body>
+
+
+</html>
