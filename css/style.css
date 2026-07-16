@@ -917,3 +917,142 @@ font-size:18px;
 
 
 }
+/* =================================
+   手机端 UI 优化
+   talent-test mobile style
+================================= */
+
+@media (max-width:600px){
+
+
+    /* =====================
+       测试页面
+    ===================== */
+
+
+    /* 顶部「寻找你的职业天赋」 */
+    .test-title,
+    .test-header h1,
+    .test-page h1,
+    .quiz-title {
+
+        font-size:28px;
+        line-height:1.3;
+        margin-top:20px;
+        margin-bottom:20px;
+
+    }
+
+
+
+    /* 题目文字 */
+    .question,
+    .question-title,
+    .question-text,
+    .test-question h2,
+    .quiz-question {
+
+        font-size:22px;
+        line-height:1.6;
+
+    }
+
+
+
+    /* 选项按钮 */
+    .option,
+    .answer-option,
+    .choice {
+
+        font-size:16px;
+        padding:18px 16px;
+        line-height:1.5;
+
+    }
+
+
+
+    /* =====================
+       结果页面
+    ===================== */
+
+
+    /* 整体宽度 */
+    .result-page {
+
+        width:100%;
+        max-width:none;
+        padding:25px 20px;
+        margin:0 auto;
+        box-sizing:border-box;
+
+    }
+
+
+
+    /* 结果主标题 */
+    .result-page h1,
+    #talentName {
+
+        font-size:32px;
+        line-height:1.3;
+
+    }
+
+
+
+    /* 英文标题 */
+    #englishName {
+
+        font-size:14px;
+
+    }
+
+
+
+    /* 「你的天赋画像」「核心特质解析」 */
+    .result-page h2,
+    .result-section h2 {
+
+        font-size:30px;
+        line-height:1.4;
+        margin-top:45px;
+        margin-bottom:20px;
+
+    }
+
+
+
+    /* 结果正文 */
+    .result-page p,
+    .result-content p,
+    .result-section p {
+
+        font-size:18px;
+        line-height:1.9;
+        margin-bottom:25px;
+
+    }
+
+
+
+    /* 结果里面卡片 */
+    .result-card {
+
+        padding:20px 15px;
+
+    }
+
+
+
+    /* 测试按钮 */
+    button,
+    .btn {
+
+        font-size:16px;
+        padding:15px 25px;
+
+    }
+
+
+}
